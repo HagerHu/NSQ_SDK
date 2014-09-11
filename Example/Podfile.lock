@@ -1,0 +1,34 @@
+PODS:
+  - CocoaAsyncSocket (7.3.5)
+  - Expecta (0.3.1)
+  - Expecta+Snapshots (1.2.1):
+    - Expecta
+    - FBSnapshotTestCase
+  - FBSnapshotTestCase (1.1)
+  - JSONKit-NoWarning (1.2)
+  - NSQ_SDK (0.1.0):
+    - CocoaAsyncSocket (~> 7.3.5)
+    - JSONKit-NoWarning (~> 1.2)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - NSQ_SDK (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  NSQ_SDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  Expecta+Snapshots: 30c28e3d8104665ee70e32df1cfc030bb37a8a6c
+  FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
+  JSONKit-NoWarning: fc8d6dd8ec65e303867d1bd274632fc60a4a8ab9
+  NSQ_SDK: 258702944762fe097696acb0c06c8c687d048917
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.33.1

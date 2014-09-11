@@ -1,0 +1,12 @@
+target 'NSQ_SDK', :exclusive => true do
+  pod "NSQ_SDK", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "NSQ_SDK", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "NSQ_SDK">
+      <Group
+         location = "group:../Pod/Assets"
+         name = "Assets">
+      </Group>
+      <Group
+         location = "group:../Pod/Classes"
+         name = "Classes">
+         <FileRef
+            location = "group:NSQ_SDK.h">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/hagerhu/Documents/NSQ_SDK/Pod/Classes/NSQSession.h">
+         </FileRef>
+         <FileRef
+            location = "group:/Users/hagerhu/Documents/NSQ_SDK/Pod/Classes/NSQSession.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSQFrame.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSQFrame.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSQMessage.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSQMessage.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSQCommand.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSQCommand.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <FileRef
+      location = "group:NSQ_SDK.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
