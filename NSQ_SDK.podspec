@@ -12,17 +12,17 @@ Pod::Spec.new do |s|
   s.version          = "0.1.0"
   s.summary          = "A objective-C implementation for NSQ"
   s.description      = <<-DESC
-                       An optional longer description of NSQ_SDK
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        NSQ_SDK is an client libraray in objective-c. It implemented:
+                        1. connect to specified host address and port
+                        2. subscribe topic and channel to the nsqd
+                        3. handle message with block
                        DESC
   s.homepage         = "https://github.com/HagerHu/NSQ_SDK"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Hager Hu" => "hager.hu@gmail.com" }
   s.source           = { :git => "https://github.com/HagerHu/NSQ_SDK.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/HagerHu'
+  s.social_media_url = 'https://twitter.com/HagerHu'
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
